@@ -251,6 +251,7 @@
   align-items: center;
   gap: 90px;
   border-radius: 20px;
+  margin-bottom: 1rem;
 }
 .run{
   width: 100%;
@@ -274,7 +275,7 @@
   color: white;
   font-weight: 200;
   font-size: 1.13rem;
-  padding: 1rem 2.5rem;
+  padding: 1rem 4.5rem;
 }
 .extra-mile-image{
   max-width: 800px;
@@ -295,7 +296,6 @@
   max-width: 1020px;
 }
 .Trainings{
-  padding: 20px;
 }
 .ch-description-2{
   font-weight: 500;
@@ -307,7 +307,6 @@
   font-weight: 900;
   font-size: 3rem;
   color: white;
-  margin: 20px auto;
 }
 .a-22 img{
   width: 100%;
@@ -335,7 +334,6 @@
   max-width: 1440px;
   background-color: rgb(12, 12, 12);
   margin: 0 auto;
-  /* border: 5px solid rgb(44, 6, 196); */
 }
 .cal-title{
   padding-top: 3rem;
@@ -348,7 +346,6 @@
   font-size: 0.90rem;
   color: rgb(194, 192, 192);
   margin-bottom: 10px;
-  /* border: 1px solid salmon; */
 }
 .two-chart{
   width: 1020px;
@@ -399,7 +396,6 @@ tr>td{
 }
 .cal-bmi-1{
   margin: 50px 0 50px;
-  /* border: 1px solid salmon; */
 }
 .form-container input{
   background-color: rgb(63, 63, 63);
@@ -525,7 +521,6 @@ tr>td{
   margin-top: 36px;
   margin-bottom: 35px;
 }
-/* responsive area */
 @media screen and (max-width:576px) {
   .header{
     padding: 0 20px;
@@ -552,7 +547,7 @@ tr>td{
     padding: 10px;
     margin-top: 25px;
   }
-  .bar {
+  .bar{
     width: 30px;
     height: 3px;
     background-color: white;
@@ -651,6 +646,10 @@ tr>td{
     gap: 50%;
     margin: 0 20px;
   }
+  .a-22{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .join-now{
     padding: 1rem 3rem;
     width: 100%;
@@ -673,15 +672,35 @@ tr>td{
   .shdow{
     margin: 0 20px;
   }
+  .Trainings{
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .run{
+    margin-left: 15px;
+  }
   .h2-title-2{
     font-weight: 800;
     font-size: 2rem;
+  }
+  .h2-title-b{
+    font-weight: 800;
+    font-size: 2rem;
+    color: white;
+    padding-left: 20px;
   }
   .h3-title-1{
     width: 26.5rem;
     font-weight: 800;
     font-size: 2rem;
     color: white;
+  }
+  .section-4{
+    padding-bottom: 50px;
+  }
+  .root-5{
+    margin-top: 30px;
   }
   .foot{
     display: flex;
@@ -702,20 +721,39 @@ tr>td{
   .bmi-cal div{
     width: 100vw;
   }
+  .cal-title{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
   .form-container{
+  }
+  .h3-title-1{
     width: 100vw;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
   }
   .two-chart{
     flex-direction: column;
     gap: 2.75rem;
   }
   .ch-description-5{
-    width: 100vw;
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .chart-bmi-1{
     width: 100vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  table{
+    margin-top: 1rem;
+  }
+  .two-chart{
+    gap: 0;
   }
   .cal-bmi-1{
-    width: 100vw;
+    margin-top: 25px;
   }
+
 }
