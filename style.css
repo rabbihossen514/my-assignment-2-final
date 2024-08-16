@@ -335,12 +335,20 @@
   max-width: 1440px;
   background-color: rgb(12, 12, 12);
   margin: 0 auto;
+  /* border: 5px solid rgb(44, 6, 196); */
 }
 .cal-title{
   padding-top: 3rem;
   padding-bottom: 3rem;
   width: 42rem;
   margin: 0 auto;
+}
+.ch-description-5{
+  font-weight: 500;
+  font-size: 0.90rem;
+  color: rgb(194, 192, 192);
+  margin-bottom: 10px;
+  /* border: 1px solid salmon; */
 }
 .two-chart{
   width: 1020px;
@@ -391,6 +399,7 @@ tr>td{
 }
 .cal-bmi-1{
   margin: 50px 0 50px;
+  /* border: 1px solid salmon; */
 }
 .form-container input{
   background-color: rgb(63, 63, 63);
@@ -690,15 +699,23 @@ tr>td{
   .line{
     padding: 0 20px;
   }
+  .bmi-cal div{
+    width: 100vw;
+  }
   .form-container{
     width: 100vw;
   }
   .two-chart{
-    /* width: 1020px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between; */
     flex-direction: column;
     gap: 2.75rem;
+  }
+  .ch-description-5{
+    width: 100vw;
+  }
+  .chart-bmi-1{
+    width: 100vw;
+  }
+  .cal-bmi-1{
+    width: 100vw;
   }
 }
