@@ -340,11 +340,11 @@
   align-items: center;
   gap: 2.75rem;
 }
-.bmi-cal-head{
+/* .bmi-cal-head{
   margin-top: 5.5rem;
   margin-bottom: 5.5rem;
   text-align: center;
-}
+} */
 .h2-title-4{
   font-weight: 900;
   font-size: 3rem;
@@ -355,8 +355,10 @@
   font-weight: 500;
   font-size: 0.90rem;
   color: rgb(194, 192, 192);
-  /* border: 1px solid white; */
   margin-top: 10px;
+}
+.chart-bmi-1{
+  margin: 50px 0 50px;
 }
 .h3-title-1{
   width: 26.5rem;
