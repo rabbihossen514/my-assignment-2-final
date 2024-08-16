@@ -332,19 +332,24 @@
   background-color: rgb(45, 45, 45);
   margin: 0 auto;
 }
+.cal-head{
+  max-width: 1440px;
+  background-color: rgb(12, 12, 12);
+  margin: 0 auto;
+  border: 1px solid rgb(230, 84, 84);
+}
+.cal-title{
+  border: 1px solid white;
+  width: 42rem;
+  margin: 0 auto;
+}
 .two-chart{
   width: 1020px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   gap: 2.75rem;
 }
-/* .bmi-cal-head{
-  margin-top: 5.5rem;
-  margin-bottom: 5.5rem;
-  text-align: center;
-} */
 .h2-title-4{
   font-weight: 900;
   font-size: 3rem;
@@ -356,6 +361,7 @@
   font-size: 0.90rem;
   color: rgb(194, 192, 192);
   margin-top: 10px;
+  margin-bottom: 34px;
 }
 .chart-bmi-1{
   margin: 50px 0 50px;
@@ -410,7 +416,7 @@ tr>td{
   font-weight: 200;
   font-size: 1.13rem;
   margin-top: 34px;
-  padding: 1rem 3.5rem;
+  padding: 1rem 4.5rem;
 }
 .meet-our-team-container{
   max-width: 1020px;
