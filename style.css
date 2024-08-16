@@ -3,7 +3,6 @@
   padding: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
 .disply-hide{
   display: none;
 }
@@ -336,10 +335,8 @@
   max-width: 1440px;
   background-color: rgb(12, 12, 12);
   margin: 0 auto;
-  border: 1px solid rgb(230, 84, 84);
 }
 .cal-title{
-  border: 1px solid white;
   padding-top: 3rem;
   padding-bottom: 3rem;
   width: 42rem;
@@ -376,6 +373,7 @@
 }
 table{
   border-collapse: collapse;
+  margin-top: 3rem;
 }
 th, td{
   border: 1px solid rgb(113, 112, 112);
@@ -670,14 +668,6 @@ tr>td{
     font-weight: 800;
     font-size: 2rem;
   }
-  .two-chart{
-    /* width: 100%; */
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2.75rem;
-  }
   .h3-title-1{
     width: 26.5rem;
     font-weight: 800;
@@ -699,5 +689,16 @@ tr>td{
   }
   .line{
     padding: 0 20px;
+  }
+  .form-container{
+    width: 100vw;
+  }
+  .two-chart{
+    /* width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; */
+    flex-direction: column;
+    gap: 2.75rem;
   }
 }
