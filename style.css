@@ -340,6 +340,8 @@
 }
 .cal-title{
   border: 1px solid white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   width: 42rem;
   margin: 0 auto;
 }
