@@ -382,7 +382,7 @@ tr>td{
   padding: 15px;
 }
 .cal-bmi-1{
-  width: 36rem;
+  margin: 50px 0 50px;
 }
 .form-container input{
   background-color: rgb(63, 63, 63);
@@ -399,6 +399,16 @@ tr>td{
 .bmi-input-2{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+}
+.cal-button{
+  border: none;
+  border-radius: 36px;
+  background-color: #ee4f36;
+  color: white;
+  font-weight: 200;
+  font-size: 1.13rem;
+  margin-top: 34px;
+  padding: 1rem 3.5rem;
 }
 .meet-our-team-container{
   max-width: 1020px;
